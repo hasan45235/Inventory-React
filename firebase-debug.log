@@ -1,0 +1,182 @@
+[debug] [2026-07-01T10:23:23.318Z] ----------------------------------------------------------------------
+[debug] [2026-07-01T10:23:23.322Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-07-01T10:23:23.323Z] CLI Version:   15.22.4
+[debug] [2026-07-01T10:23:23.323Z] Platform:      win32
+[debug] [2026-07-01T10:23:23.324Z] Node Version:  v22.19.0
+[debug] [2026-07-01T10:23:23.324Z] Detected Agent: unknown
+[debug] [2026-07-01T10:23:23.324Z] Time:          Wed Jul 01 2026 15:23:23 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-07-01T10:23:23.325Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Lenovo\Desktop\Hasan\React Project\Inventory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-07-01T10:24:09.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-01T10:24:09.096Z] > authorizing via signed-in user (muhammadhsn72@gmail.com)
+[debug] [2026-07-01T10:24:09.099Z] Checked if tokens are valid: false, expires at: 1782830925460
+[debug] [2026-07-01T10:24:09.099Z] Checked if tokens are valid: false, expires at: 1782830925460
+[debug] [2026-07-01T10:24:09.099Z] > refreshing access token with scopes: []
+[debug] [2026-07-01T10:24:09.104Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-07-01T10:24:09.104Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-07-01T10:24:09.571Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-07-01T10:24:09.571Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-07-01T10:24:09.602Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-07-01T10:24:10.546Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-07-01T10:24:10.547Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2026-07-01T10:25:14.493Z] ----------------------------------------------------------------------
+[debug] [2026-07-01T10:25:14.496Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-07-01T10:25:14.497Z] CLI Version:   15.22.4
+[debug] [2026-07-01T10:25:14.497Z] Platform:      win32
+[debug] [2026-07-01T10:25:14.498Z] Node Version:  v22.19.0
+[debug] [2026-07-01T10:25:14.498Z] Detected Agent: unknown
+[debug] [2026-07-01T10:25:14.498Z] Time:          Wed Jul 01 2026 15:25:14 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-07-01T10:25:14.498Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Lenovo\Desktop\Hasan\React Project\Inventory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2026-07-01T10:25:25.929Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-01T10:25:25.929Z] > authorizing via signed-in user (muhammadhsn72@gmail.com)
+[debug] [2026-07-01T10:25:52.506Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:25:52.507Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:25:52.515Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-07-01T10:25:52.516Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"inventory-proj"}
+[debug] [2026-07-01T10:25:53.656Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2026-07-01T10:25:53.656Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_UNAVAILABLE","suggestedProjectId":"inventory-proj-35439"}
+[debug] [2026-07-01T10:26:06.964Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:06.965Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:06.966Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1/projects:checkProjectId [none]
+[debug] [2026-07-01T10:26:06.966Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"proposedId":"inventory-proj-34285"}
+[debug] [2026-07-01T10:26:07.600Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1/projects:checkProjectId 200
+[debug] [2026-07-01T10:26:07.601Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1/projects:checkProjectId {"projectIdStatus":"PROJECT_ID_AVAILABLE","suggestedProjectId":"inventory-proj-34285"}
+[debug] [2026-07-01T10:26:14.268Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:14.268Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:14.269Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2026-07-01T10:26:14.269Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"inventory-proj-34285","name":"inventory-proj-34285"}
+[debug] [2026-07-01T10:26:15.944Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2026-07-01T10:26:15.945Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/create_project.global.8331853732775771947"}
+[debug] [2026-07-01T10:26:15.950Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:15.950Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:15.951Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8331853732775771947 [none]
+[debug] [2026-07-01T10:26:17.215Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8331853732775771947 200
+[debug] [2026-07-01T10:26:17.216Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8331853732775771947 {"name":"operations/create_project.global.8331853732775771947"}
+[debug] [2026-07-01T10:26:17.721Z] [Project Creation Poller] Retrying task index 0
+[debug] [2026-07-01T10:26:17.723Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:17.724Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:17.725Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8331853732775771947 [none]
+[debug] [2026-07-01T10:26:18.037Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8331853732775771947 200
+[debug] [2026-07-01T10:26:18.037Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/create_project.global.8331853732775771947 {"name":"operations/create_project.global.8331853732775771947","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"521506143058","projectId":"inventory-proj-34285","lifecycleState":"ACTIVE","name":"inventory-proj-34285","createTime":"2026-07-01T10:26:19.239Z"}}
+[debug] [2026-07-01T10:26:18.041Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:18.042Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:18.043Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285:addFirebase [none]
+[debug] [2026-07-01T10:26:22.076Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285:addFirebase 200
+[debug] [2026-07-01T10:26:22.076Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285:addFirebase {"name":"operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw"}
+[debug] [2026-07-01T10:26:22.077Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:22.077Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:22.078Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw [none]
+[debug] [2026-07-01T10:26:26.416Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw 200
+[debug] [2026-07-01T10:26:26.417Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw {"name":"operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw"}
+[debug] [2026-07-01T10:26:26.927Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-07-01T10:26:26.927Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:26.928Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:26.928Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw [none]
+[debug] [2026-07-01T10:26:28.128Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw 200
+[debug] [2026-07-01T10:26:28.128Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw {"name":"operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw"}
+[debug] [2026-07-01T10:26:29.144Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-07-01T10:26:29.145Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:29.145Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:29.146Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw [none]
+[debug] [2026-07-01T10:26:30.213Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw 200
+[debug] [2026-07-01T10:26:30.214Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw {"name":"operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw"}
+[debug] [2026-07-01T10:26:32.224Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2026-07-01T10:26:32.226Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:32.226Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:26:32.227Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw [none]
+[debug] [2026-07-01T10:26:32.898Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw 200
+[debug] [2026-07-01T10:26:32.899Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw {"name":"operations/workflows/ZjgxYjIyMzAtZDIzZi00NjM4LTgyYzYtNjA2NzQyOGVkZjgw","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"inventory-proj-34285","projectNumber":"521506143058","displayName":"inventory-proj-34285","name":"projects/inventory-proj-34285","resources":{"hostingSite":"inventory-proj-34285"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: inventory-proj-34285
+[info]    - Project Name: inventory-proj-34285
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/inventory-proj-34285/overview
+[info] 
+=== Hosting Setup
+[debug] [2026-07-01T10:27:43.117Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:27:56.180Z] ----------------------------------------------------------------------
+[debug] [2026-07-01T10:27:56.184Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-07-01T10:27:56.185Z] CLI Version:   15.22.4
+[debug] [2026-07-01T10:27:56.185Z] Platform:      win32
+[debug] [2026-07-01T10:27:56.185Z] Node Version:  v22.19.0
+[debug] [2026-07-01T10:27:56.185Z] Detected Agent: unknown
+[debug] [2026-07-01T10:27:56.186Z] Time:          Wed Jul 01 2026 15:27:56 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-07-01T10:27:56.186Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Lenovo\Desktop\Hasan\React Project\Inventory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-07-01T10:28:02.236Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-01T10:28:02.237Z] > authorizing via signed-in user (muhammadhsn72@gmail.com)
+[debug] [2026-07-01T10:28:02.240Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:28:02.241Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:28:02.248Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285 [none]
+[debug] [2026-07-01T10:28:03.117Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285 200
+[debug] [2026-07-01T10:28:03.117Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285 {"projectId":"inventory-proj-34285","projectNumber":"521506143058","displayName":"inventory-proj-34285","name":"projects/inventory-proj-34285","resources":{"hostingSite":"inventory-proj-34285"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_a21c25d7-dfa3-449d-a615-5aa66be82c53"}
+[info] i  Using project inventory-proj-34285 (inventory-proj-34285) . 
+[info] 
+=== Hosting Setup
+[debug] [2026-07-01T10:29:13.686Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:29:13.687Z] Checked if tokens are valid: true, expires at: 1782905048571
+[debug] [2026-07-01T10:29:13.687Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285 [none]
+[debug] [2026-07-01T10:29:14.270Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285 200
+[debug] [2026-07-01T10:29:14.271Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inventory-proj-34285 {"projectId":"inventory-proj-34285","projectNumber":"521506143058","displayName":"inventory-proj-34285","name":"projects/inventory-proj-34285","resources":{"hostingSite":"inventory-proj-34285"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_a21c25d7-dfa3-449d-a615-5aa66be82c53"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
