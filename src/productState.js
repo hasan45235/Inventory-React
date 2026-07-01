@@ -1,6 +1,5 @@
 import { useState } from "react";
 import ProductContext from "./productcontext";
-import Swal from 'sweetalert2'
 
 const ProductState = (props) => {
 
@@ -36,12 +35,7 @@ const ProductState = (props) => {
       // eslint-disable-next-line
       let data = await response.json();
       progress(100)
-      Swal.fire({
-        title: 'Success!',
-        text: 'Product updated successfully',
-        icon: 'success',
-        confirmButtonText: 'Done'
-      })
+
       fetchnotes(progress);
     }
 
@@ -55,14 +49,7 @@ const ProductState = (props) => {
       })
       // eslint-disable-next-line
       let data = await response.json();
-      if (response.ok) {
-        Swal.fire({
-          title: 'Success!',
-          text: 'Product added successfully',
-          icon: 'success',
-          confirmButtonText: 'Done'
-        })
-      }
+      
       fetchnotes(progress);
 
     }
@@ -115,12 +102,7 @@ const ProductState = (props) => {
       // eslint-disable-next-line
       let res = await response.json();
       progress(100)
-      Swal.fire({
-        title: 'Success!',
-        text: 'Transaction added successfully',
-        icon: 'success',
-        confirmButtonText: 'Done'
-      })
+      
       fetchTransactions(progress);
       fetchnotes(progress);
     }
